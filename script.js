@@ -1,15 +1,5 @@
 'use strict';
 
-// console.log(document.querySelector('.message').textContent); // read the element with class message's textcontent(value)
-
-// document.querySelector('.message').textContent = 'Correct Number!'
-
-// document.querySelector('.number').textContent = 13;
-// document.querySelector('.score').textContent = 20;
-
-// document.querySelector('.guess').value = 23
-// console.log(document.querySelector('.guess').value)
-
 let secretNumber = Math.trunc(Math.random()*20)+1
 let score = 20; // application state
 let displayMessage = function(message){
